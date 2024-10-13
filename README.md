@@ -5,6 +5,10 @@ Setup:
 1. Create a 'stock_exchanges' directory in the same base directory where 'predict.py' script exists.
 This will be the base data directory.
 2. Move all data subdirectories ('LSE', 'NASDAQ', 'NYSE') in the 'stock_exchanges' directory.
+So data subdirectories will have the following paths:
+.\stock_exchanges\LSE
+.\stock_exchanges\NASDAQ
+.\stock_exchanges\NYSE
 
 How to run: "python3 predict.py N", where N is the specified number of files.
 
